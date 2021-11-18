@@ -18,7 +18,7 @@
 
 // Declaración de funciones
 int CountingA(std::string sentence);
-void YesNotA(int example);
+void YesNotA(std::string sentence);
 
 int main () {
   std::string sentence;
@@ -27,7 +27,7 @@ int main () {
   std::cout << "alguna a minúscula o no" << std::endl;
   std::cout << "Introduzca una frase: ";
   std::getline(std::cin, sentence, '.');
-  CountingA(sentence);
+  YesNotA(sentence);
   return 0;
 }
 
@@ -43,6 +43,11 @@ int CountingA(std::string sentence) {
   return add;
 }
 
-void YesNotA(int example) {
-  example = CountingA(sentence)
+void YesNotA(std::string sentence) {
+  int example = CountingA(sentence);
+  if (example > 0) {
+    std::cout << "yes" << std::endl;
+  } else {
+    std::cout << "no" << std::endl;
+  }
 }
