@@ -6,7 +6,7 @@
   *
   * @file three_words.cc
   * @author Idaira Reina alu0101398495@ull.edu.es
-  * @date Nov 15 2021
+  * @date Nov 22 2021
   * @brief  Este programa lee tres palabras a , b y c , 
   * e imprime una línea con c , b y a en este orden.
   */

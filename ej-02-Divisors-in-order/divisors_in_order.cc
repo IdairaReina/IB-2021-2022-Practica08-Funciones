@@ -6,7 +6,7 @@
   *
   * @file divisors_in_order.cc
   * @author Idaira Reina alu0101398495@ull.edu.es
-  * @date Nov 15 2021
+  * @date Nov 22 2021
   * @brief  Este programa imprime en orden todos los divisores de un número dado
   */
 
